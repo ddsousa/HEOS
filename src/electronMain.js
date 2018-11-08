@@ -1,4 +1,5 @@
 const { app, BrowserWindow } = require('electron')
+const heos = require('heos-api')
 const path = require('path')
 const url = require('url')
 let win;
